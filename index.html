@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehoboth Specialist Hospital - Your Journey to Wellness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="vitality-aura"></div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">Rehoboth Specialist Hospital</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#specialists">Specialists</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="tel:08130867929" class="phone-number">08130867929</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-headline">Your Journey to Wellness Begins Here.</h1>
+                <p class="hero-subheadline">Modern, compassionate healthcare in the heart of Port Harcourt.</p>
+                <a href="#contact" class="btn btn-primary pulse">Book an Appointment</a>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Commitment to Your Health</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon general-medicine"></div>
+                        <h3>General Medicine</h3>
+                        <p>Comprehensive care for adults, focusing on prevention, diagnosis, and treatment of a wide range of illnesses.</p>
+                        <a href="#" class="learn-more">Learn More &rarr;</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon maternity-care"></div>
+                        <h3>Maternity & Antenatal</h3>
+                        <p>Dedicated support and expert medical care for you and your baby throughout your pregnancy journey.</p>
+                        <a href="#" class="learn-more">Learn More &rarr;</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon pediatrics"></div>
+                        <h3>Pediatric Care</h3>
+                        <p>Specialized, gentle care for infants, children, and adolescents to ensure a healthy start in life.</p>
+                        <a href="#" class="learn-more">Learn More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="human-element-section">
+            <div class="container">
+                <div class="human-element-content">
+                    <h2>Care That Connects.</h2>
+                    <p>We believe in healthcare that goes beyond diagnosis. At Rehoboth, we build partnerships with our patients, founded on trust, respect, and a genuine commitment to your well-being.</p>
+                    <a href="#" class="btn btn-secondary">Meet Our Specialists</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                 <h2 class="section-title">Ready to Take the Next Step?</h2>
+                 <p class="contact-subtext">Reach out to us. We are here to help.</p>
+                 <div class="contact-details">
+                    <div class="contact-item">
+                        <h4>Book an Appointment</h4>
+                        <a href="tel:08130867929" class="contact-info-link">08130867929</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Send Us an Email</h4>
+                        <a href="mailto:rehospitalph@yahoo.com" class="contact-info-link">rehospitalph@yahoo.com</a>
+                    </div>
+                     <div class="contact-item">
+                        <h4>Visit Our Hospital</h4>
+                        <p class="contact-info-static">Port Harcourt, Rivers State, Nigeria</p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Rehoboth Specialist Hospital. All Rights Reserved.</p>
+            <p>Website concept and design by <span class="fundbridge-credit">Fundbridge Consultation Ltd.</span></p>
+        </div>
+    </footer>
+
+    <script>
+        // Script for the interactive aura effect
+        const aura = document.getElementById('vitality-aura');
+        document.addEventListener('mousemove', (e) => {
+            aura.style.background = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, rgba(20, 147, 151, 0.3) 0%, rgba(255, 224, 199, 0) 40%)`;
+        });
+    </script>
+
+</body>
+</html>
